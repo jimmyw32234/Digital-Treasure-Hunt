@@ -1,0 +1,33 @@
+.ship {
+    width:500px;
+}
+
+.looker {
+    width: 400px;
+    display: none;
+}
+
+.seamon {
+    width:600px;
+    display:none;
+}
+    
+body {
+    text-align: center;
+}
+
+.alert { 
+    color: white;
+}
+
+.chest {
+    display:none;
+}
+
+.treasure {
+    display:none;
+}
+
+.ending {
+    display:none;
+}
