@@ -1,5 +1,5 @@
 <!DOCTYPE html> <html><head>
-        <title>Digital Treasure Hunt</title>
+        <title>Digital Treasure Hunt</title><link href="https://fonts.googleapis.com/css?family=Pirata+One" rel="stylesheet">
     <script>function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 /*! jQuery v3.2.1 | (c) JS Foundation and other contributors | jquery.org/license */
@@ -4026,9 +4026,12 @@
   return r.noConflict = function (b) {
     return a.$ === r && (a.$ = Wb), b && a.jQuery === r && (a.jQuery = Vb), r;
   }, b || (a.jQuery = a.$ = r), r;
-});</script><style>.ship {
+});</script><style>
+
+.ship {
     width:500px;
 }
+
 
 .looker {
     width: 400px;
@@ -4042,6 +4045,7 @@
     
 body {
     text-align: center;
+    font-family: 'Pirata One', cursive;
 }
 
 .alert { 
@@ -4099,9 +4103,9 @@ $(".looker").click(function()  {
 $(".seamon").dblclick(function() {
     $("body").css("background-color", "white");
     $(".secretwords1").text("We did it! The sea monster's treasure! Let's click to open it!"); 
-    $(".secretwords1").fadeIn();
-    $(".seamon").fadeOut();
-    $(".chest").show();
+    $(".secretwords1").delay(1100).fadeIn();
+    $(".seamon").delay(1000).fadeOut();
+    $(".chest").delay(1100).show();
 });
 
 $(".chest").click(function() {
