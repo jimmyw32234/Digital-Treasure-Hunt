@@ -21,9 +21,9 @@ $(".looker").click(function()  {
 $(".seamon").dblclick(function() {
     $("body").css("background-color", "white");
     $(".secretwords1").text("We did it! The sea monster's treasure! Let's click to open it!"); 
-    $(".secretwords1").fadeIn();
-    $(".seamon").fadeOut();
-    $(".chest").show();
+    $(".secretwords1").delay(1100).fadeIn();
+    $(".seamon").delay(1000).fadeOut();
+    $(".chest").delay(1100).show();
 });
 
 $(".chest").click(function() {
