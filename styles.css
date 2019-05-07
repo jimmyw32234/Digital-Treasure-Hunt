@@ -1,6 +1,9 @@
+
+
 .ship {
     width:500px;
 }
+
 
 .looker {
     width: 400px;
@@ -14,6 +17,7 @@
     
 body {
     text-align: center;
+    font-family: 'Pirata One', cursive;
 }
 
 .alert { 
